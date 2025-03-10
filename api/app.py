@@ -74,7 +74,7 @@ def main():
     # Streamlit app configuration
     st.set_page_config(
     page_title="Password Strength Meter",  # Title of the page
-    page_icon="../static/favicon.ico",      # Path to the favicon image
+    page_icon="./static/favicon.ico",      # Path to the favicon image
     )
     
     # Updated CSS with improved logo centering
@@ -188,7 +188,7 @@ def main():
                 # Create a column layout and center the image in the middle column
                col1, col2, col3 = st.columns([1.2, 1, 0.8])
                with col2:
-                st.image("../static/logo.png", width=130)
+                st.image("./static/logo.png", width=130)
                 # Ensure the image is centered in the container
                 st.markdown(
                     '<style>.stImage { display: block; margin-left: auto; margin-right: auto; }</style>',
